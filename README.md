@@ -51,16 +51,17 @@ sendConfirmation() → Gửi email/SMS xác nhận
 
 3.3. Luồng Đơn hàng không hợp lệ
 validateOrder() → THẤT BẠI
-→ Dừng ngay, không thực hiện các bước còn lại 4. Cấu trúc lớp
+→ Dừng ngay, không thực hiện các bước còn lại 
+4. Cấu trúc lớp
 
 ![alt text](image-1.png)
 
-6. Lợi ích của Template Method trong bài này
+5. Lợi ích của Template Method trong bài này
    Các bước chung chỉ viết một lần
    Thêm phương thức thanh toán mới chỉ cần tạo lớp con mới
    Không được thay đổi thứ tự các bước (vì processOrder là final)
    Dễ bảo trì và mở rộng
 
-7. Kết quả chạy
+6. Kết quả chạy
 
 ![alt text](image-3.png)
